@@ -1,0 +1,8 @@
+version: "3.1"
+
+services:
+  solar-code:
+    image: solar-code:latest
+    ports:
+      - "80"
+    working_dir: /app
